@@ -1,22 +1,35 @@
-# Credit Risk Modeling
+# Credit Risk Basket CDS Pricing
 
 ## Project Overview
 
-This project develops machine learning models to predict loan default risk.
+This project develops a Basket CDS pricing framework using Gaussian Copula and Monte Carlo simulation techniques.
+
+The model estimates default correlation among multiple reference entities and calculates fair spreads for k-th-to-default credit derivatives.
 
 ## Objectives
 
-- Explore credit risk data
-- Perform feature engineering
-- Build Logistic Regression models
-- Compare machine learning approaches
-- Evaluate model performance using ROC-AUC and confusion matrices
+• Estimate default probabilities
+
+• Build credit correlation matrices
+
+• Implement Gaussian Copula simulation
+
+• Price 1st-to-Default through 5th-to-Default Basket CDS
+
+• Perform sensitivity analysis
+
+• Evaluate model risk under different correlation assumptions
 
 ## Project Structure
 
-- 01_data_exploration.ipynb
-- 02_feature_engineering.ipynb
-- 03_logistic_regression.ipynb
-- 04_xgboost_model.ipynb
-- 05_model_evaluation.ipynb
-- 06_business_insights.ipynb
+01_data_collection.ipynb
+
+02_default_probability_model.ipynb
+
+03_correlation_estimation.ipynb
+
+04_gaussian_copula.ipynb
+
+05_basket_cds_pricing.ipynb
+
+06_sensitivity_analysis.ipynb
