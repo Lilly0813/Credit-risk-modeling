@@ -1,5 +1,7 @@
 # Credit Risk Basket CDS Pricing
 
+A quantitative credit risk modeling project implementing Basket CDS pricing using Gaussian Copula and Monte Carlo simulation in Python.
+
 ## Project Overview
 
 This project develops a Basket CDS pricing framework using Gaussian Copula and Monte Carlo simulation techniques.
@@ -53,6 +55,16 @@ Future enhancements may include:
 - Discounted premium and protection leg valuation
 - Historical backtesting
 
+## Requirements
+
+- Python 3.11+
+- NumPy
+- Pandas
+- SciPy
+- Matplotlib
+- yfinance
+- Jupyter Notebook
+
 ## Project Structure
 
 Data/
@@ -68,12 +80,9 @@ Notebooks/
 ├── 05_basket_cds_pricing.ipynb
 └── 06_model_validation_and_sensitivity_analysis.ipynb
 
-## Future Improvements
+## Conclusion
 
-Future enhancements may include:
+This project demonstrates the implementation of a quantitative credit risk pricing framework using Gaussian Copula and Monte Carlo simulation.
 
-- Market CDS curve calibration
-- t-Copula implementation
-- Stochastic recovery rates
-- Discounted premium and protection leg valuation
-- Historical backtesting
+It is intended as both an academic CQF project and a practical portfolio project showcasing quantitative finance and credit risk modeling skills.
+
