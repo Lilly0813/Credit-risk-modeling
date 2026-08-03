@@ -32,4 +32,4 @@ The model estimates default correlation among multiple reference entities and ca
 
 05_basket_cds_pricing.ipynb
 
-06_sensitivity_analysis.ipynb
+06_model_validation_and_sensitivity_analysis..ipynb
