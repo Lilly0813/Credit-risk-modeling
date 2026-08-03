@@ -67,18 +67,22 @@ Future enhancements may include:
 
 ## Project Structure
 
-Data/
+```text
+Credit-Risk-Basket-CDS-Pricing/
 │
-├── bank_prices.csv
+├── Data/
+│   └── bank_prices.csv
 │
-Notebooks/
+├── Notebooks/
+│   ├── 01_data_collection.ipynb
+│   ├── 02_default_probability_model.ipynb
+│   ├── 03_correlation_estimation.ipynb
+│   ├── 04_gaussian_copula.ipynb
+│   ├── 05_basket_cds_pricing.ipynb
+│   └── 06_model_validation_and_sensitivity_analysis.ipynb
 │
-├── 01_data_collection.ipynb
-├── 02_default_probability_model.ipynb
-├── 03_correlation_estimation.ipynb
-├── 04_gaussian_copula.ipynb
-├── 05_basket_cds_pricing.ipynb
-└── 06_model_validation_and_sensitivity_analysis.ipynb
+└── README.md
+```
 
 ## Conclusion
 
